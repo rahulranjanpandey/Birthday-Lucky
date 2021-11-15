@@ -4,17 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LuckNumber</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Lucky birthday</title>
+
 </head>
 <body>
-    <h1>Is your birthday lucky ? </h1>
     <div class="container">
-        <label for="date-of-birth">Date of Birth:</label>
-        <input type="date" id="date-of-birth" >
-        <label for="lukcy-number">Lucky Number</label>
-        <input id="lucky-number" type="number">
-        <button id="check-number">Check Number</button>
+        <h1>Is your birthday lucky? 🥳</h1>
+        <label for="date-of-birth">Date of Birth </label>
+        <input type="date" class="input-box" id="date-of-birth">
+
+        <label for="lucky-number">Lucky number</label>
+        <input type="number" class="input-box" id="lucky-number">
+
+        <button id="check-number">Check</button>
+        <p id="output"></p>
     </div>
-    <script src="script.js"></script>
+    <footer class="footer">
+        <div class="footer-heading">
+            <h3>parvez rashid</h3>
+        </div>
+        <p>connect with me below</p>
+        <ul class="list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/parvez-rashid">GitHub</a>
+            </li>
+            <li class="list-item-inline">
+                |
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://www.linkedin.com/in/mohammed-parvez-rashid-198a6b194/">LinkedIn</a>
+            </li>
+        </ul>
+    </footer>
+    <script src="app.js"></script>
 </body>
 </html>
